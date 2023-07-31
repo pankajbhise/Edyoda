@@ -1,0 +1,40 @@
+#Question 1
+# Numbers in Fibonacci series from 10 to 50
+
+num = 10
+a,b = 0,1
+print("Fibonacci Series:",a,",",b,end =", ")
+for i in range(2, num):
+    c = a+b
+    a = b
+    b = c  
+    print( c,",", end ="")
+
+
+#Question 2
+# Program to get reverse of a string
+
+s = "Edyoda"
+reversedString = ""
+i = len(s)
+while i>0:
+    reversedString += s[i-1]
+    i = i - 1
+print(reversedString)
+
+
+
+#Question3
+#Count number of even numbers an odd numbers  
+num = (1,2,3,4,5,6,7,8,9)
+even, odd = 0,0
+
+for i in num:
+    if i % 2 == 0:
+        even += 1
+
+    else:
+        odd += 1
+
+print("Number of even numbers:", even)
+print("Number of odd numbers:", odd)

@@ -11,6 +11,7 @@ for i in range(2, num):
     print( c,",", end ="")
 
 
+
 #Question 2
 # Program to get reverse of a string
 
@@ -24,7 +25,9 @@ print(reversedString)
 
 
 
+
 #Question3
+
 #Count number of even numbers an odd numbers  
 num = (1,2,3,4,5,6,7,8,9)
 even, odd = 0,0

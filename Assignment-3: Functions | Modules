@@ -14,7 +14,7 @@ print("The sum of numbers in a list is:",sum_list(list))
 #Question 2
 # Write a Python program to reverse a string
 
-str = "1234abcd"
+str = str(input("Enter a string:"))
 new_str = str[::-1]
 print("The reverse of a string is:",new_str)
 

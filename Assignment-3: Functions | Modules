@@ -1,0 +1,40 @@
+#Question 1
+#  Write a Python function to sum all the numbers in a list.
+
+def sum_list(list):
+    total = 0
+    for i in range(0,len(list)):
+        total = total+list[i]
+    return total
+list = [8,2,3,0,7]
+print("The sum of numbers in a list is:",sum_list(list))
+
+
+
+#Question 2
+# Write a Python program to reverse a string
+
+str = "1234abcd"
+new_str = str[::-1]
+print("The reverse of a string is:",new_str)
+
+
+
+
+#Question 3
+# Write a Python function that accepts a string and calculate the number of upper case letters and lower case letters.
+
+def up_low(Str):
+    upper = 0
+    lower = 0
+    for i in range(0, len(Str)):
+        if (Str[i]>='A' and Str[i]<='Z'):
+            upper += 1
+    for i in range(0, len(Str)):
+        if (Str[i]>='a' and Str[i]<='z'):
+            lower += 1
+    return(upper, lower)
+    
+
+Str = str(input("Enter a string:"))
+print("Number of Upper and Lower case Characters:", up_low(Str))

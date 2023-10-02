@@ -3,7 +3,6 @@
                           Manage credits and debits from these accounts through an ATM style program.
 
 
-
 class Account:
     def __init__(self, acc_nbr, opening_balance):
         self.acc_nbr = acc_nbr
